@@ -41,3 +41,13 @@ checkEvenOdd(5);
 console.log("Factorial of 4 is: " + calculateFactorial(4));
 console.log("Reversed string: " + reverseString("Hello, world!"));
 console.log("Fibonacci sequence of length 8: " + generateFibonacciSequence(8).join(", "));
+// Example JavaScript file
+
+// Function to check if a number is even or odd
+function checkEvenOdd(number) {
+  if (number % 2 === 0) {
+    console.log(number + " is even.");
+  } else {
+    console.log(number + " is odd.");
+  }
+}
